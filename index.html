@@ -4,57 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>compendium</title>
   </head>
   <body>
-    <!-- Шапка страницы -->
-    <header>
-      <a href="/">Логотип сайта</a>
-
-      <ul>
-        Меню навигации по другим страницам
-      </ul>
-    </header>
-    <a href="https://google.com">Ссылка на главную страницу Google</a>
-    <a
-      href="https://www.facebook.com/"
-      target="_blank"
-      rel="noreferrer noopener"
-    >
-      Facebook
-    </a>
-
-    <!-- Ссылка на скачивание файла -->
-    <a href="photo.jpg" download>Скачать Даню</a>
-    <a href="https://google.com">Ссылка на главную страницу</a>
-
-    <button type="button">Открыть модальное окно</button>
-    <figure>
-      <img src="photo.jpg" alt="Danya" width="240" />
-      <figcaption>Dannnnya</figcaption>
-    </figure>
-
-    <div>
-      <a href="https://www.pexels.com/photo/animals-sweet-cat-kitty-57416/">
-        <img
-          src="https://sefon.pro/img/albums_covers/deep-house.jpg"
-          alt="Рыжий кот"
-          width="140"
-        />
-      </a>
-    </div>
     <section>
-      <p>
-        <a href="squoosh.app">Squoosh</a> - сервис
-        <em>оптимизации</em> изображений.
-      </p>
+      <table class="table">
+        <caption class="caption">
+          What is the difference between block, inline and inline-block
+        </caption>
 
-      <p>Преимущества</p>
-      <ul>
-        <li>Работает в браузере</li>
-        <li>Не грузит систему</li>
-        <li>Удобный интерфейс</li>
-      </ul>
+        <thead class="thead">
+          <tr>
+            <th>/</th>
+            <th>block</th>
+            <th>inline</th>
+            <th>inline-block</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>height determined</th>
+            <td colspan="3">by height of content</td>
+          </tr>
+          <tr>
+            <th>width determined</th>
+            <td>by width of parent element</td>
+            <td colspan="2">by width of content</td>
+          </tr>
+          <tr>
+            <th>Is it possible to set height and width</th>
+            <td>yes</td>
+            <td>no</td>
+            <td>yes</td>
+          </tr>
+          <tr>
+            <th>How line wrapping works</th>
+
+            <td>always on a new line</td>
+            <td colspan="2">
+              only when filling the width of the parent element
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </section>
   </body>
 </html>
